@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5879345b-f837-4705-be5a-57942e95523d" name="Changes" comment="Make simple structure for it project">
-      <change afterPath="$PROJECT_DIR$/hack_med/communications/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hack_med/communications/videocall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hack_med/dal_models/doctor_dal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hack_med/dal_models/user_dal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hack_med/registration_autorise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hack_med/registration_autorise/doctor_reg_routers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hack_med/registration_autorise/user_reg_routers.py" afterDir="false" />
+    <list default="true" id="5879345b-f837-4705-be5a-57942e95523d" name="Changes" comment="add registration to user and doctor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/chat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/bl_models/doctor_bl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/bl_models/doctor_bl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/bl_models/doctor_bl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/bl_models/user_bl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/bl_models/user_bl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/communications/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/communications/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/communications/videocall.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/communications/videocall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/registration_autorise/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/registration_autorise/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/registration_autorise/doctor_reg_routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/registration_autorise/doctor_reg_routers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hack_med/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/videocalls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/bl_models/user_bl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +50,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hack_it_park" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hack_med" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hack_med/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,11 +110,20 @@
       <option name="project" value="LOCAL" />
       <updated>1732226541737</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add registration to user and doctor">
+      <option name="closed" value="true" />
+      <created>1732255265506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732255265506</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Make simple structure for it project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make simple structure for it project" />
+    <MESSAGE value="add registration to user and doctor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add registration to user and doctor" />
   </component>
 </project>
