@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5879345b-f837-4705-be5a-57942e95523d" name="Changes" comment="add registration to user and doctor">
+    <list default="true" id="5879345b-f837-4705-be5a-57942e95523d" name="Changes" comment="working structure">
+      <change afterPath="$PROJECT_DIR$/hack_med/gigachat_api/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hack_med/bl_models/doctor_bl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/bl_models/doctor_bl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/bl_models/user_bl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/bl_models/user_bl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/communications/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/communications/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/communications/videocall.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/communications/videocall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/registration_autorise/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/registration_autorise/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/registration_autorise/doctor_reg_routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/registration_autorise/doctor_reg_routers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/dal_models/doctor_dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/dal_models/doctor_dal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +49,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hack_it_park" />
@@ -118,12 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732255265506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working structure">
+      <option name="closed" value="true" />
+      <created>1732262558736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732262558736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Make simple structure for it project" />
     <MESSAGE value="add registration to user and doctor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add registration to user and doctor" />
+    <MESSAGE value="working structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="working structure" />
   </component>
 </project>

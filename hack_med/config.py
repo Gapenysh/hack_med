@@ -8,6 +8,8 @@ class Settings(BaseSettings):
     DB_NAME: str
     JWT_SECRET_KEY: str
     JWT_TOKEN_LOCATION: str
+    CLIENT_ID: str
+    AUTORIZATION_KEY: str
 
     class Config:
         env_file = "../.env"
@@ -16,3 +18,4 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
