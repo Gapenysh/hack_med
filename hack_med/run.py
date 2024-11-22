@@ -12,7 +12,8 @@ app.config['JWT_SECRET_KEY'] = settings.JWT_SECRET_KEY
 app.config['JWT_TOKEN_LOCATION'] = settings.JWT_TOKEN_LOCATION
 jwt = JWTManager(app)
 
+
 CORS(app)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True, port=6001)
+    app.run(host="0.0.0.0", debug=True, port=6002)
