@@ -11,3 +11,8 @@ class UserBL:
     def add_feedback(client_id, doctor_id, rating, detail, date):
         success = UserDAL.add_doctor_feedback(client_id, doctor_id, rating, detail, date)
         return success
+
+    @staticmethod
+    def get_info_by_number():
+        user = UserDAL.get_info_one()
+        return user

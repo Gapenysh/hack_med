@@ -35,3 +35,7 @@ class DoctorBL:
             "feedbacks": doc_feedbacks
         }
         return all_info
+    @staticmethod
+    def get_info_one_doc():
+        doc_info = DoctorDAL.get_info_by_one_doc()
+        return doc_info

@@ -3,6 +3,7 @@ from decimal import Decimal
 
 from psycopg2 import Error
 from hack_med.db_connection import connection_db
+from datetime import date
 class DoctorDAL:
     @staticmethod
     def add_doctor_registr():
@@ -187,6 +188,33 @@ class DoctorDAL:
                 result = cur.fetchone()
 
                 return result[0]
+
+        except Error as e:
+            return str(e)
+        finally:
+            conn.close()
+
+    @staticmethod
+    def get_info_by_one_doc():
+        conn = connection_db()
+        try:
+            with conn.cursor() as cur:
+                stmt = """SELECT * FROM doctor WHERE email = 'alex228@mail.com'"""
+                cur.execute(stmt)
+                result = cur.fetchone()
+
+                colnames = [desc[0] for desc in cur.description]
+
+                # colnames = [desc[0] for desc in cur.description]
+                # colnames = [desc[0] for desc in cur.description]
+                formatted_data = dict(zip(colnames, result))
+                for key, value in formatted_data.items():
+                    if isinstance(value, date):
+                        formatted_data[key] = value.isoformat()
+
+                print(formatted_data)
+                return formatted_data
+
 
         except Error as e:
             return str(e)

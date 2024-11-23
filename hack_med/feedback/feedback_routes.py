@@ -13,4 +13,7 @@ def add_feedback():
 
     success = UserBL.add_feedback(client_id, doctor_id, rating, detail, date)
 
-    return success
+    if success:
+        return jsonify({"message": "Feedback added successfully"}), 200
+    else:
+        return jsonify({"message": "Failed to add feedback"}), 400
