@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5879345b-f837-4705-be5a-57942e95523d" name="Changes" comment="working structure">
-      <change afterPath="$PROJECT_DIR$/hack_med/gigachat_api/utils.py" afterDir="false" />
+    <list default="true" id="5879345b-f837-4705-be5a-57942e95523d" name="Changes" comment="add gigachat module and crud for main pages">
+      <change afterPath="$PROJECT_DIR$/hack_med/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hack_med/client/client_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hack_med/doctor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hack_med/doctor/doctor_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hack_med/requests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hack_med/bl_models/doctor_bl.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/bl_models/doctor_bl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack_med/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hack_med/dal_models/doctor_dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/dal_models/doctor_dal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack_med/registration_autorise/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack_med/registration_autorise/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +128,22 @@
       <option name="project" value="LOCAL" />
       <updated>1732262558736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add gigachat module and crud for main pages">
+      <option name="closed" value="true" />
+      <created>1732318771216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732318771216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Make simple structure for it project" />
     <MESSAGE value="add registration to user and doctor" />
     <MESSAGE value="working structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="working structure" />
+    <MESSAGE value="add gigachat module and crud for main pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gigachat module and crud for main pages" />
   </component>
 </project>
